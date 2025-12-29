@@ -84,16 +84,16 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: Content MUST align with official documentation (ROS 2, NVIDIA Isaac, Gazebo, Unity) to ensure technical accuracy
+- **FR-002**: Content MUST be suitable for students and professionals with basic AI/robotics knowledge, with clear, structured explanations
+- **FR-003**: All code examples and simulation instructions MUST be reproducible by students following step-by-step guides
+- **FR-004**: Content MUST emphasize bridging digital AI knowledge to physical robotic systems (embodied intelligence)
+- **FR-005**: Content structure MUST support future AI-native features like chatbots and personalization
 
 *Example of marking unclear requirements:*
 
-- **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
-- **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
+- **FR-006**: Content MUST reference official documentation, research papers, or textbooks [NEEDS CLARIFICATION: specific sources to be determined]
+- **FR-007**: Content MUST follow APA citation style [NEEDS CLARIFICATION: specific formatting requirements]
 
 ### Key Entities *(include if feature involves data)*
 

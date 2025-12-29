@@ -1,55 +1,43 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A -> 1.0.0
+Modified principles: N/A
+Added sections: All principles and sections based on Hackathon Book 1 requirements
+Removed sections: N/A
+Templates requiring updates: ✅ updated - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
+Follow-up TODOs:
+- TODO(RATIFICATION_DATE): Set actual ratification date
+- TODO(LAST_AMENDED_DATE): Set to today's date when finalized
+-->
+
+# Hackathon Book 1 Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Accuracy & Technical Correctness
+All robotics, AI, and simulation concepts must be correct and verified using official documentation (ROS 2, NVIDIA Isaac, Gazebo, Unity).
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Clarity & Pedagogical Quality
+Content should be suitable for students and professionals with basic AI/robotics knowledge, explained in clear, structured, modular form.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Practical Reproducibility
+Step-by-step guides for code, simulations, and hardware setup must allow students to reproduce experiments and results.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Embodied Intelligence Focus
+Emphasize bridging digital AI knowledge to physical robotic systems.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Interactivity Preparation
+Structure content to later support AI-native features like chatbots and personalization.
 
-### [PRINCIPLE_6_NAME]
+### Content Sourcing & Standards
+Reference official documentation, research papers, and textbooks for ROS 2, NVIDIA Isaac, Gazebo, Unity; APA style citations; Modular content divided into course modules.
 
+## Key Standards
+Content Sourcing: Reference official documentation, research papers, and textbooks for ROS 2, NVIDIA Isaac, Gazebo, Unity, and AI models; Citation Format: APA style for all sources; Content Modularization: Divide book into modules/weeks as per course structure: Module 1: The Robotic Nervous System (ROS 2), Module 2: The Digital Twin (Gazebo & Unity), Module 3: The AI-Robot Brain (NVIDIA Isaac™), Module 4: Vision-Language-Action (VLA), Capstone Project: The Autonomous Humanoid; Code & Simulation Examples: Provide working Python/ROS 2 code snippets, URDF models, simulation instructions, and VLA integration examples; Writing Style: Clear, concise, academic yet approachable, suitable for students with intermediate AI/robotics knowledge.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Constraints
+Format: Docusaurus book deployed to GitHub Pages; Word Count per Module: 3,000–5,000 words including examples; Hardware/Software Instructions: Include minimum required hardware setup, cloud alternatives, and Edge Kit usage; Simulation Coverage: Gazebo, Unity, and Isaac Sim examples must be included; No Chatbot Implementation Yet: Focus on book content only; RAG chatbot integration will follow later.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+All technical content is verified against official sources; Book is complete, well-structured, and interactive-ready; Includes working code and simulation examples; Deployment to GitHub Pages is live and readable; Passes peer-review / mentor feedback for clarity, correctness, and pedagogy.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE) | **Last Amended**: TODO(LAST_AMENDED_DATE)

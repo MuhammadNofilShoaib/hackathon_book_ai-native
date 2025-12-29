@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Accuracy & Technical Correctness: Verify all technical concepts align with official documentation (ROS 2, NVIDIA Isaac, Gazebo, Unity)
+- Clarity & Pedagogical Quality: Ensure content is suitable for students with basic AI/robotics knowledge
+- Practical Reproducibility: Confirm all code and simulation examples can be reproduced by students
+- Embodied Intelligence Focus: Verify content bridges digital AI knowledge to physical robotic systems
+- Interactivity Preparation: Ensure content structure supports future AI-native features
+- Content Sourcing & Standards: Confirm all sources are official documentation, research papers, or textbooks with APA citations
 
 ## Project Structure
 
