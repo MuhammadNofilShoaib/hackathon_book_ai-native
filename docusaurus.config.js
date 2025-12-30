@@ -2,7 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/okaidia'); // dracula can be replaced with okaidia
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,7 +14,8 @@ const config = {
   url: 'https://your-organization.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<org-name>.github.io/<repo-name>'
-  baseUrl: '/ai-textbook-physical-ai',
+  // Use root path for local development, and subdirectory for production
+  baseUrl: process.env.NODE_ENV === 'production' ? '/ai-textbook-physical-ai' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
